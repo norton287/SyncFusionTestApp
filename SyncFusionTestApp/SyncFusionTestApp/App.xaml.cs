@@ -18,7 +18,7 @@ namespace SyncFusionTestApp
         {
            InitializeComponent();
 
-            MainPage = new MDPTest();
+            MainPage = new GLFlyOut();
         }
 
         protected override void OnStart()
