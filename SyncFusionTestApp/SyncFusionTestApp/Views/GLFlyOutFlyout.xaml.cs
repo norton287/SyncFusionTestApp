@@ -35,6 +35,13 @@ namespace SyncFusionTestApp.Views
 							 Title = "Home",
 							 IconSource = Application.Current.Resources["Home"] as FontImageSource,
 							 TargetType = typeof(MainPage)
+						 },
+						 new GLFlyOutFlyoutMenuItem
+						 {
+							 Id = 1,
+							 Title = "Info",
+							 IconSource = Application.Current.Resources["Info"] as FontImageSource,
+							 TargetType = typeof(AppInfoView)
 						 }
 					 });
 				 }
@@ -48,6 +55,14 @@ namespace SyncFusionTestApp.Views
 							 Title = "Home",
 							 IconSource = Application.Current.Resources["Home"] as FontImageSource,
 							 TargetType = typeof(MainPage)
+						 },
+
+						 new GLFlyOutFlyoutMenuItem
+						 {
+							 Id = 1,
+							 Title = "Info",
+							 IconSource = Application.Current.Resources["Info"] as FontImageSource,
+							 TargetType = typeof(AppInfoView)
 						 }
 					 });
 				 }
